@@ -1,0 +1,12 @@
+/* Master Variables File */
+@import url(../node_modules/@stratech-team/svelte5-component-library/src/master-variables.css);
+/* Custome Vars */
+/* @import url(./custom-variables.css); */
+/* Master Styles File */
+@import url(../node_modules/@stratech-team/svelte5-component-library/src/master-styles.css);
+/* Used to control grid height when in "view details"/"manage" pages */
+.section-grid-container .grid-component-container {
+	height: 100%;
+	min-height: unset !important;
+	max-height: 96vh !important;
+}
